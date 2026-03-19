@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "Vietnam"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Thanh Nguyen / Personal Website"
+title                    : "Thanh's Homepage"
 title_separator          : "-"
 name                     : &name "Thanh Nguyen"
-description              : &description "Thanh Nguyen"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "personal description"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://thanhnguyen.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "nqthanh2101hcmut"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
