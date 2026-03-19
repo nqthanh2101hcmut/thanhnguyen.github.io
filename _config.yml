@@ -1,28 +1,27 @@
-# Basic Site Settings
-locale       : "en-US"
-title        : "Thanh's Homepage"
-description  : "Personal academic website"
-url          : "https://nqthanh2101hcmut.github.io"
-baseurl      : "/personalpage"
-repository   : "nqthanh2101hcmut/personalpage"
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Thanh's Homepage"
+title_separator          : "-"
+name                     : "Thanh Nguyen"
+description              : "Personal academic website"
+
+url                      : "https://nqthanh2101hcmut.github.io"
+baseurl                  : "/personalpage"
+repository               : "nqthanh2101hcmut/personalpage"
 
 author:
-  avatar     : "ava.png"
-  name       : "Thanh Nguyen"
-  bio        : "Math, Physics, and Machine Learning"
-  location   : "Vietnam"
-  employer   : "Ho Chi Minh City University of Technology, VNU-HCM"
-  email      : "nqthanh2101.hcmut@gmail.com"
-  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  github     : "nqthanh2101hcmut"
+  avatar                 : "ava.png"
+  name                   : "Thanh Nguyen"
+  bio                    : "Math, Physics, and Machine Learning"
+  location               : "Vietnam"
+  employer               : "Ho Chi Minh City University of Technology, VNU-HCM"
+  email                  : "nqthanh2101.hcmut@gmail.com"
+  googlescholar          : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  github                 : "nqthanh2101hcmut"
+  orcid                  :
+  pubmed                 :
+  bluesky                :
 
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid            : ""
-  pubmed           : ""
-  github           : "nqthanh2101hcmut"
-  bluesky          : ""
-
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -60,24 +59,24 @@ keep_files:
   - .git
   - .svn
 
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+encoding                 : "utf-8"
+markdown_ext             : "markdown,mkdown,mkdn,mkd,md"
 
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+markdown                 : kramdown
+highlighter              : rouge
+lsi                      : false
+excerpt_separator        : "\n\n"
+incremental              : false
 
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  input                  : GFM
+  hard_wrap              : false
+  auto_ids               : true
+  footnote_nr            : 1
+  entity_output          : as_char
+  toc_levels             : 1..6
+  smart_quotes           : lsquo,rsquo,ldquo,rdquo
+  enable_coderay         : false
 
 collections:
   teaching:
@@ -147,11 +146,11 @@ defaults:
       share: true
 
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir               : _sass
+  style                  : compressed
 
-permalink: /:categories/:title/
-timezone: Etc/UTC
+permalink                : /:categories/:title/
+timezone                 : Etc/UTC
 
 plugins:
   - jekyll-feed
