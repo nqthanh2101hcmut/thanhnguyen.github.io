@@ -13,4 +13,4 @@ Currently, I work under the supervision of Dr. Le Xuan Dai on improving training
 
 Previously, I also worked on Bayesian optimization for machine learning. Alongside my graduate studies, I am pursuing a second degree in Mathematics at Dalat University.
 
-Email: your-email@example.com
+Email: nqthanh2101.hcmut@gmail.com
